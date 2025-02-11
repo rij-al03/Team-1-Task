@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan2</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdn.tailwindcss.com" />
+    <script src="Scripts.js"></script>
   </head>
   <body class="bg-gray-600">
     <div class="bg-blue-300 p-4 rounded-lg text-container m-10 flex-2">
@@ -26,38 +26,5 @@
         </button>
       </div>
     </div>
-
-    <script>
-      // perbedaan var dan let
-      function contoh() {
-        // Defenisi variable
-        var nama = "Abdul Rozaq";
-        let jabatan = "Web Developer";
-        let umur = 20;
-        let alamat = "Kota Padang";
-        if (true) {
-          // let terbatas di dalam scopenya
-          let nama = "Zeo";
-        }
-        document.getElementById("nama").textContent = "Nama: " + nama;
-        document.getElementById("jabatan").textContent = "Jabatan: " + jabatan;
-        document.getElementById("umur").textContent =
-          "Umur: " + umur + " tahun";
-        document.getElementById("alamat").textContent = "Alamat: " + alamat;
-      }
-      contoh();
-
-      class Hobi {
-        constructor(hobi) {
-          this.hobi = hobi;
-        }
-
-        displayHobi() {
-          return this.hobi.join(", ");
-        }
-      }
-
-      const myHobi = new Hobi(["Bermain game", "Membaca", "Tidur"]);
-    </script>
   </body>
 </html>
