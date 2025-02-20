@@ -1,6 +1,9 @@
+// import function useState and Image
 import React, { useState } from "react";
+import Logo from "../assets/logo.svg";
 
 const Navbar = () => {
+  // use useState for state management
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -11,8 +14,11 @@ const Navbar = () => {
     <div className="navbar fixed w-full transition-all py-4 bg-white shadow-md">
       <div className="container mx-auto px-4">
         <div className="navbar-box flex items-center justify-between">
+          {/* Logo */}
           <div className="logo">
-            <h1 className="text-2xl font-bold">Logo.</h1>
+            <a href="#home">
+              <img src={Logo} alt="Logo." className="w-32 md:w-40" />
+            </a>
           </div>
           {/* Menu Items */}
           <ul
@@ -21,28 +27,28 @@ const Navbar = () => {
             }`}>
             <li className="py-2 md:py-0">
               <a
-                href="#"
+                href="#home"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 Home
               </a>
             </li>
             <li className="py-2 md:py-0">
               <a
-                href="#"
+                href="#about"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 About
               </a>
             </li>
             <li className="py-2 md:py-0">
               <a
-                href="#"
+                href="#services"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 Service
               </a>
             </li>
             <li className="py-2 md:py-0">
               <a
-                href="#"
+                href="#projects"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 Project
               </a>
@@ -52,8 +58,8 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <div className="social">
               <a
-                href="#"
-                className="bg-green-400 px-5 py-2 rounded-lg text-white font-bold hover:bg-green-600 transition-all">
+                href="#footer"
+                className="bg-blue-500 px-5 py-2 rounded-lg text-white font-bold hover:bg-blue-600 transition-all active:bg-blue-700 transition-all">
                 Social Media
               </a>
             </div>
