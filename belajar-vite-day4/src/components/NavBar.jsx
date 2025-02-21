@@ -1,6 +1,6 @@
 // import function useState and Image
-//import React, { useState } from "react";
-//import Logo from "../assets/logo.svg";
+import React, { useState } from "react";
+import Logo from "../assets/logo.svg";
 
 const Navbar = () => {
   // use useState for state management
