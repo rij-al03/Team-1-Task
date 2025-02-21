@@ -1,6 +1,6 @@
-import NavBar from "d:/belajar-vite/src/components/navBar";
-import HomePage from "d:/belajar-vite/src/pages/HomePage";
-import Footer from "d:/belajar-vite/src/components/Footer";
+import NavBar from "../src/components/navBar";
+import HomePage from "../src/pages/HomePage";
+import Footer from "../src/components/Footer";
 
 function App() {
   return (
