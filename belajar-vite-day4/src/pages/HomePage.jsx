@@ -1,4 +1,3 @@
-// import image for background
 import heroImage from "../assets/bg-img.png";
 
 const HomePage = () => {
