@@ -25,28 +25,28 @@ const Navbar = () => {
             className={`md:flex gap-12 items-center md:static absolute w-full left-0 md:w-auto bg-white md:bg-transparent transition-all duration-300 ease-in ${
               isOpen ? "top-16" : "-top-96"
             }`}>
-            <li className="py-2 md:py-0">
+            <li className="py-2 md:py-0 text-center">
               <a
                 href="#home"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 Home
               </a>
             </li>
-            <li className="py-2 md:py-0">
+            <li className="py-2 md:py-0 text-center">
               <a
                 href="#about"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 About
               </a>
             </li>
-            <li className="py-2 md:py-0">
+            <li className="py-2 md:py-0 text-center">
               <a
                 href="#services"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">
                 Service
               </a>
             </li>
-            <li className="py-2 md:py-0">
+            <li className="py-2 md:py-0 text-center">
               <a
                 href="#projects"
                 className="font-medium opacity-75 hover:opacity-100 transition-all">

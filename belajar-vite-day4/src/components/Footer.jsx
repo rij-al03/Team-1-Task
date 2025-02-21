@@ -1,4 +1,22 @@
-const Footer = () => {  
+const Footer = () => {
+  return (
+    <div>
+      <footer id="footer" className="bg-blue-500 text-white py-8 text-center">
+        <div className="max-w-4xl mx-auto">
+          <p className="font-bold text-2xl">
+            &copy; 2025 TeamOne. All rights reserved.
+          </p>
+          <div className="flex justify-center space-x-4 mt-4">
+            <a href="#" className="font-bold hover:text-white">
+              Privacy Policy
+            </a>
+            <a href="#" className="font-bold hover:text-white">
+              Terms of Service
+            </a>
+            <a href="#" className="font-bold hover:text-white">
+              Contact
+            </a>
+    const Footer = () => {  
   return (     
     <div>       
       <footer id="footer" className="bg-blue-500 text-white py-12 text-center">         
